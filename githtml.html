@@ -6,12 +6,15 @@
     <title>T&K</title>
 </head>
 <body>
-    <h1> the best HTML page is here!!!</h1>
+    <h1 id="x"> the best HTML page is here!!!</h1>
     <script>
+        let x=0;
         while (confirm("להמשיך?"))
         {
             alert("break!!!")
+            x++;
         }
+        document.getElementById("x").innerHtml="x";
     </script>
 </body>
 </html>
